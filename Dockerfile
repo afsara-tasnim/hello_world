@@ -1,3 +1,4 @@
 FROM node:alpine
+Expose 8080
 COPY . \app
-CMD node \app\hello.js
+CMD node hello.js
