@@ -1,3 +1,3 @@
 FROM node:alpine
 COPY . \app
-CMD node \app\hello.js
+CMD node hello.js
